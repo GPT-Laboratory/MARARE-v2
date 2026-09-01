@@ -1,0 +1,242 @@
+#root {
+  margin: 0;
+}
+
+body {
+  margin: 0 !important;
+  
+  font-family:  Helvetica;
+
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* .chat-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.input-field, .send-button {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: calc(100% - 122px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  width: 100px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.agents-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* .chat-window {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.chat-header {
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.chat-box {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+} */
+
+/* .message-content {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+.docx-container {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+
+.chat-message-left .message-content {
+  background-color: #e6f7ff;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-right .message-content {
+  background-color: #fff1f0;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-center .message-content {
+  background-color: #f9f0ff;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-center-1 .message-content {
+  background-color: #f8f4b8;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-center-2 .message-content {
+  background-color: #fad7e0;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-center-3 .message-content {
+  background-color: #e5c6fa;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.default-chat-message .message-content {
+  background-color: #efe0f8;
+  height: 450px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+.chat-message-final .message-content {
+  background-color: #8fc1ff;
+  height: 300px !important;
+  font-size: 16px !important;
+  font-weight: 450 !important;
+}
+
+
+.copy-button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-left: auto; /* This will push the button to the right */
+}
+
+.copy-button:hover {
+  background: #f0f0f0;
+}
+
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+/* styles.css or FullPageLoader.module.css */
+.full-page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Light overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+
+
+.compact-table .ant-table-thead > tr > th {
+  padding: 2px 12px !important;      /* Reduce header padding */
+  font-size: 14px !important;        /* Smaller font size */
+  font-weight: 600 !important;       /* Keep it bold but not too heavy */
+  line-height: 1.2 !important;       /* Compact line height */
+  height: 40px !important;           /* Fixed header height */
+}
+
+.compact-table .ant-table-tbody > tr > td {
+  padding: 8px 12px !important;      /* Reduce cell padding */
+  font-size: 13px !important;        /* Slightly smaller font */
+  line-height: 1.3 !important;       /* Compact line height */
+  height: auto !important;           /* Let content determine height */
+}
+
+.compact-table .ant-table-thead {
+  background-color: #fafafa !important;  /* Optional: subtle header background */
+}
+
+
+
+/* Speaking ring animation */
+@keyframes speakingPulse {
+  0%   { box-shadow: 0 0 0 0px rgba(159, 246, 59, 0.8); }
+  50%  { box-shadow: 0 0 0 8px rgba(80, 247, 47, 0.3); }
+  100% { box-shadow: 0 0 0 14px rgba(5, 163, 31, 0); }
+}
+
+.speaking-ring {
+  animation: speakingPulse .7s ease-out infinite;
+  border: 3px solid #22c55e !important;
+}
+
+
+
+/* Reuse the same speaking-ring but with a teal/cyan color for agent */
+@keyframes agentSpeakingPulse {
+  0%   { box-shadow: 0 0 0 0px rgba(59, 130, 246, 0.8); }
+  50%  { box-shadow: 0 0 0 8px rgba(59, 130, 246, 0.3); }
+  100% { box-shadow: 0 0 0 14px rgba(59, 130, 246, 0); }
+}
+
+.speaking-ring-agent {
+  animation: agentSpeakingPulse 0.8s ease-out infinite;
+  border: 3px solid #3b82f6 !important;
+  border-radius: 1rem;
+}
+

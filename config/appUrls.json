@@ -1,0 +1,32 @@
+{
+  "local": {
+    "apiHost": "localhost",
+    "apiPort": "5000",
+    "backendBaseUrl": "http://localhost:5000",
+    "mcpServerUrl": "http://localhost:3000",
+    "mcpNotionLocalUrl": "http://localhost:3000/mcp",
+    "a2aDocumentAgentUrl": "http://127.0.0.1:8899"
+  },
+  "notion": {
+    "apiBase": "https://api.notion.com/v1",
+    "mcpUrl": "https://mcp.notion.com/mcp",
+    "oauthProtectedResourceUrl": "https://mcp.notion.com/.well-known/oauth-protected-resource/mcp"
+  },
+  "google": {
+    "driveApiBase": "https://www.googleapis.com/drive/v3",
+    "driveUploadBase": "https://www.googleapis.com/upload/drive/v3",
+    "oauthAuthUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+    "oauthTokenUrl": "https://oauth2.googleapis.com/token",
+    "userinfoUrl": "https://www.googleapis.com/oauth2/v3/userinfo",
+    "tokeninfoUrl": "https://oauth2.googleapis.com/tokeninfo",
+    "driveScopes": "https://www.googleapis.com/auth/drive.file"
+  },
+  "openai": {
+    "chatCompletions": "https://api.openai.com/v1/chat/completions",
+    "realtimeCalls": "https://api.openai.com/v1/realtime/calls",
+    "realtimeClientSecrets": "https://api.openai.com/v1/realtime/client_secrets"
+  },
+  "openWeather": "https://api.openweathermap.org/data/2.5/weather",
+  "serpApi": "https://serpapi.com/search.json",
+  "allOrigins": "https://api.allorigins.win/raw"
+}

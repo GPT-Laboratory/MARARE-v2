@@ -1,0 +1,38 @@
+.terms-popup-modal .ant-modal-content {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.terms-popup-modal .ant-modal-body {
+  padding: 0;
+}
+
+.terms-popup-modal .terms-container {
+  min-height: auto;
+  padding: 20px;
+  background: transparent;
+}
+
+.terms-popup-footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #f0f0f0;
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+
+.terms-close-button {
+  min-width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #007bff;
+  border-color: #007bff;
+}
+
+.terms-close-button:hover {
+  background: #0056b3;
+  border-color: #0056b3;
+}
