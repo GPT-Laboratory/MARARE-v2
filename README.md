@@ -395,6 +395,9 @@ Vite dev server (usually `http://localhost:5173`) proxies API calls to the backe
 5. **Start a meeting**, generate documents, end meeting — data saves to Supabase.
 6. View meeting history and edit documents from the project UI.
 
+## Video Demo 
+
+Watch [![Watch the demo](thumbnail.png)](https://drive.google.com/file/d/1VUSoKQpdQ1aZF8eqFxhbQiFX2ZgQOf3r/view)
 
 
 ## MCP configuration (Notion & Google Drive)
